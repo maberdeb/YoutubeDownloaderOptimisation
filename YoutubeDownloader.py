@@ -136,32 +136,16 @@ text = '''
 
 '''
 print(Colorate.Horizontal(Colors.blue_to_cyan, text))
-print()
-print()
-print()
-print()
-
+print(\n\n\n)
 textligne = "--------------------------------------------------------------------------------------------------------------"
 print(Colors.blue + textligne )
-print()
-print()
-print()
-print()
-print()
-print()
-
+print(\n\n\n\n\n)
 credit = Fore.LIGHTBLUE_EX + "[" + Fore.LIGHTCYAN_EX + "!" + Fore.LIGHTBLUE_EX + "] " + "Développer par : fat 2 nash#9413\n"
 for char in credit:
     sys.stdout.write(char)
     sys.stdout.flush()
     time.sleep(0.03)
-
-print()
-print()
-print()
-print()
-
-
+print(\n\n\n)
 #menu des choix
 premier = Fore.BLUE + "[" + Fore.CYAN + "1" + Fore.BLUE+ "] : " + Fore.BLUE + "Telecharger une video\n"
 for char in premier:
